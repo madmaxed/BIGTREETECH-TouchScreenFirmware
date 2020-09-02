@@ -175,7 +175,7 @@
 #define PREHEAT_HOTEND   {200,   240,    230,   170,    220,   250}
 #define PREHEAT_BED      {60,    70,     90,    50,     50,    90}
 
-#define HEAT_MAX_TEMP    {275,       275,       275,       275,       275,       275,       150,    60}   //max temperature can be set
+#define HEAT_MAX_TEMP    {285,       285,       285,       285,       285,       285,       150,    60}   //max temperature can be set
 #define HEAT_SIGN_ID     {"T0:",     "T1:",     "T2:",     "T3:",     "T4:",     "T5:",     "B:",   "C:"}
 #define HEAT_DISPLAY_ID  {"T0",      "T1",      "T2",      "T3",      "T4",      "T5",      "Bed",  "Chamber"}
 #define HEAT_CMD         {"M104 T0", "M104 T1", "M104 T2", "M104 T3", "M104 T4", "M104 T5", "M140", "M141"};
@@ -198,9 +198,9 @@
 #define SPEED_MOVE_FAST      5000
 
 // Extrude speed mm/min
-#define EXTRUDE_SLOW_SPEED   60
-#define EXTRUDE_NORMAL_SPEED 600
-#define EXTRUDE_FAST_SPEED   1200
+#define EXTRUDE_SLOW_SPEED   100
+#define EXTRUDE_NORMAL_SPEED 200
+#define EXTRUDE_FAST_SPEED   300
 
 // Size of machine
 #define X_MIN_POS 0
